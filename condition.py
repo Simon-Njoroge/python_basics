@@ -29,3 +29,47 @@ print(students[last])
 hot=True
 if hot:
     print("it is hot ")
+
+name= len(input("insert your name: "))
+
+if name<3:
+   print("name must be at least 3 characters")
+elif name>50:
+   print("name can be a maxmum of 50 characters")
+else:
+   print("name looks good")
+
+i=1
+while i<=5:
+   print(i)
+   i+=1
+print("done")
+
+secret = 9
+a=0
+
+while a<3:
+   guess=int(input("guess: "))
+   a+=1
+   if guess == secret:
+    print("you won")
+    break
+else:
+   print("you lost")
+for items in range(10):
+    print(items)
+prices = [10,20,30]
+total=0
+for sum in prices:
+   total += sum
+print(f"sum: {total}")
+
+# 2D LIST
+matrix=[
+   [1,2,3,4,5],
+   [6,7,8,9,10],
+   [11,12,13,14,15]
+]
+
+
+
